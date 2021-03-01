@@ -39,12 +39,8 @@ a:hover {
   color: #333;
 }
 
-.flex {
-  display: flex;
-}
-
-.red-on-hover:hover {
-  color: var(--color-red);
+.h-fill {
+  width: 100%;
 }
 
 /*
@@ -89,18 +85,12 @@ a:hover {
 .top_nav_categories a {
   font-size: 1.4rem;
   font-weight: bolder;
-  color: black !important;
 }
 
 .top_nav_trending a {
   font-size: 1.3rem;
   text-transform: uppercase;
-  color: grey !important;
   font-weight: bold;
-}
-
-.navbar-nav:nth-child(2) a:nth-child(1) {
-  color: black !important;
 }
 
 .toggler-wrap > * {
@@ -141,7 +131,6 @@ main {
 }
 
 .bottom_nav_first a:nth-child(1) {
-  color: black !important;
   font-weight: bold;
 }
 
