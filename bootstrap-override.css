@@ -1,0 +1,12 @@
+
+.navbar-light .navbar-nav.nav-row-1 .nav-link {
+  color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link.disabled {
+  color: #000;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #f42;
+}
