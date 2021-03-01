@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="bootstrap-override.css">
+  <link rel="stylesheet" href="bootstrap-override.css">
   <link rel="stylesheet" href="style.css">
   <title>Newsweek Copy</title>
 </head>
@@ -23,7 +23,8 @@
           <img src="./assets/logo.svg" alt="Newsweek logo" height="30">
         </a>
         <div class="d-flex align-items-center toggler-wrap">
-          <a class="nav_login" href="#">Login</a>
+          <a class="d-sm-none d-lg-block nav_login" href="#">Login</a>
+          <a class="d-lg-none d-block nav_login" href="#"><i class="fas fa-user"></i></a>
           <button class="btn btn-warning btn-round subscribe_button rounded-pill">Subscribe ></button>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
