@@ -39,6 +39,14 @@ a:hover {
   color: #333;
 }
 
+.flex {
+  display: flex;
+}
+
+.red-on-hover:hover {
+  color: var(--color-red);
+}
+
 /*
     ==============================================
                 ****** GLOBAL ******
@@ -51,6 +59,11 @@ a:hover {
   background-color: #f72217;
 }
 
+.navbar .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .nav_logo img {
   filter: invert(100%);
 }
@@ -59,6 +72,7 @@ a:hover {
 .datetime {
   color: white;
   font-size: 1.2rem;
+  display: none;
 }
 
 .nav_login {
@@ -87,4 +101,20 @@ a:hover {
 
 .navbar-nav:nth-child(2) a:nth-child(1) {
   color: black !important;
+}
+
+.toggler-wrap > * {
+  margin-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .nav_login,
+  .datetime {
+    color: white;
+    display: block;
+  }
+
+  .navbar-toggler {
+    display: none;
+  }
 }
