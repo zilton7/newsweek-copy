@@ -51,8 +51,25 @@ a:hover {
 
 /* TOP NAVBAR */
 
+.page-header {
+  font-family: "Roboto Condensed",sans-serif;
+}
+
 .top_nav {
   background-color: #f72217;
+  position: relative;
+}
+
+.top_nav::after {
+  content: '';
+  position: absolute;
+  width: 70px;
+  height: 1.5rem;
+  right: 0;
+  top: 100%;
+  display: none;
+  background-color: #f72217;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 20px 100%);
 }
 
 .navbar .container-fluid {
@@ -73,7 +90,6 @@ a:hover {
 
 .nav_login {
   text-transform: uppercase;
-  font-size: 1.4rem;
   font-weight: bold;
 }
 
@@ -83,7 +99,6 @@ a:hover {
 }
 
 .top_nav_categories a {
-  font-size: 1.4rem;
   font-weight: bolder;
 }
 
@@ -150,10 +165,6 @@ main {
   color: rgba(53, 52, 52, 0.8);
 }
 
-.links-wrapper {
-  display: ;
-}
-
 @media (min-width: 768px) {
   .nav_login,
   .datetime {
@@ -163,5 +174,9 @@ main {
 
   .navbar-toggler {
     display: none;
+  }
+
+  .top_nav::after {
+    display: block;
   }
 }
