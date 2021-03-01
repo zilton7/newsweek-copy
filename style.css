@@ -140,11 +140,6 @@ main {
   flex-wrap: wrap;
 }
 
-.links-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .bottom_nav_first a:nth-child(1) {
   color: black !important;
   font-weight: bold;
