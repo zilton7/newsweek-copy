@@ -107,6 +107,12 @@ a:hover {
   margin-left: 15px;
 }
 
+/* MAIN CONTENT */
+
+main {
+  height: 65vh;
+}
+
 /* FOOTER NAVBAR */
 
 .bottom_nav_header {
@@ -120,20 +126,28 @@ a:hover {
 
 .bottom_nav {
   border-top: grey solid 0.01rem;
+  flex-wrap: wrap;
 }
 
 .bottom_nav_first {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   font-size: 1.1rem;
+  flex-wrap: wrap;
+}
+
+.bottom_nav_second {
+  flex-wrap: wrap;
+}
+
+.links-wrapper {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .bottom_nav_first a:nth-child(1) {
   color: black !important;
   font-weight: bold;
-}
-
-.bottom_nav_second a {
 }
 
 .left_side {
@@ -150,6 +164,10 @@ a:hover {
   font-size: 2rem;
   padding: 0 0.5rem;
   color: rgba(53, 52, 52, 0.8);
+}
+
+.links-wrapper {
+  display: ;
 }
 
 @media (min-width: 768px) {
