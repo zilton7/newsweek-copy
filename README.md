@@ -2,7 +2,7 @@
 
 # Newsweek Copy
 
-> One paragraph statement about the project.
+> For this project we are using Bootstrap 4.3.1 to make a clone of Newsweek.com website. This clone website is fully responsive.
 
 ![screenshot](./app_screenshot.png)
 
