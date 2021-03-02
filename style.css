@@ -115,14 +115,25 @@ a:hover {
 /* MAIN CONTENT */
 
 main {
-  height: 65vh;
+  height: 100%;
+}
+
+.category {
+  bottom: 0;
+  color: red;
+  font-weight: bold;
+  font-size: 1.3rem;
+  background: rgb(233, 233, 233);
+}
+
+.featured-stories article {
+  padding: 1rem;
 }
 
 /* FOOTER NAVBAR */
 
 .bottom_nav_logo {
-  filter:
-    invert(17%) sepia(84%) saturate(5354%) hue-rotate(13deg)
+  filter: invert(17%) sepia(84%) saturate(5354%) hue-rotate(13deg)
     brightness(103%) contrast(105%);
 }
 
