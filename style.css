@@ -146,6 +146,10 @@ main {
   padding: 0.3rem;
 }
 
+.culture-and-travel-category {
+  bottom: 0;
+}
+
 /* FOOTER NAVBAR */
 
 .bottom_nav_logo {
