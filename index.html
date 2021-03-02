@@ -6,13 +6,130 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel='icon' href="#">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="bootstrap-override.css">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>Newsweek Copy</title>
 </head>
 
 <body>
 
-  <h1>hello world</h1>
+  <header class="container-fluid page-header h3">
+    <nav class="navbar navbar-light top_nav p-1 p-md-5 mb-md-4">
+      <div class="container-fluid">
+        <div class="datetime">Monday, 2021-03-01</div>
+        <a class="navbar-brand nav_logo" href="#">
+          <img src="./assets/logo.svg" alt="Newsweek logo" height="30">
+        </a>
+        <div class="d-flex align-items-center toggler-wrap">
+          <a class="d-sm-none d-lg-block nav_login" href="#">Login</a>
+          <a class="d-lg-none d-block nav_login" href="#"><i class="fas fa-user"></i></a>
+          <button class="btn btn-warning btn-round subscribe_button rounded-pill">Subscribe ></button>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <!-- Main navbar -->
+        <div class="collapse navbar-collapse justify-content-center top_nav_categories" id="navbarNavAltMarkup">
+          <div class="navbar-nav d-flex h-fill nav-row-1 border-bottom border-muted py-3 h4">
+            <a class="nav-link flex-fill border-right border-muted text-center" aria-current="page" href="#">U.S.</a>
+            <a class="nav-link flex-fill border-right border-muted text-center" href="#">World</a>
+            <a class="nav-link flex-fill border-right border-muted text-center" href="#">Business</a>
+            <a class="nav-link flex-fill border-right border-muted text-center" href="#">Tech & Science</a>
+            <a class="nav-link flex-fill border-right border-muted text-center" href="#">Culture</a>
+            <a class="nav-link flex-fill border-right border-muted text-center" href="#">Newsgeek</a>
+            <a class="nav-link flex-fill border-right border-muted text-center" href="#">Sports</a>
+            <a class="nav-link flex-fill border-right border-muted text-center" href="#">Health</a>
+            <a class="nav-link flex-fill border-right border-muted text-center" href="#">The Debate</a>
+            <a class="nav-link flex-fill border-right border-muted text-center" href="#">Experts</a>
+            <a class="nav-link flex-fill text-center" href="#">Vantage</a>
+            <form class="d-flex">
+              <input class="form-control me-2 input-lg" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+          <!-- Trending navbar -->
+          <div class="navbar-nav top_nav_trending h-fill border-bottom border-muted py-3">
+            <a class="nav-link disabled" aria-current="page" href="#">Trending</a>
+            <a class="nav-link mx-3" href="#">Joe Biden</a>
+            <a class="nav-link mx-3" href="#">Donald Trump</a>
+            <a class="nav-link mx-3" href="#">Inauguration</a>
+            <a class="nav-link mx-3" href="#">Coronavirus</a>
+            <a class="nav-link mx-3" href="#">Stimulus Package</a>
+            <a class="nav-link mx-3" href="#">Vaccine</a>
+            <a class="nav-link mx-3" href="#">Capitol Riots</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+
+  </main>
+  <footer>
+    <div class="container-fluid">
+      <div class="px-4 d-flex flex-column flex-md-row align-items-md-center justify-content-md-between">
+        <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-start">
+          <a class="navbar-brand bottom_nav_logo" href="#">
+            <img src="./assets/logo.png" alt="Newsweek logo" height="30">
+          </a>
+          <div>© 2021 NEWSWEEK DIGITAL LLC</div>
+        </div>
+        <div class="social">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid bottom_nav">
+          <div class="links-wrapper text-muted">
+            <!-- Editions navbar -->
+            <div class="bottom_nav_first d-flex justify-content-start flex-nowrap">
+              <a class="nav-link disabled" aria-current="page" href="#">Editions</a>
+              <div class="d-flex justify-content-start">
+                <a class="nav-link text-muted" href="#">U.S. Edition</a>
+                <a class="nav-link text-muted" href="#">日本</a>
+                <a class="nav-link text-muted" href="#">Pakistan</a>
+                <a class="nav-link text-muted" href="#">Polska</a>
+                <a class="nav-link text-muted" href="#">România</a>
+              </div>
+            </div>
+            <!-- Links navbar -->
+            <div class="bottom_nav_second d-flex">
+              <a class="nav-link text-muted" href="#">About Us</a>
+              <a class="nav-link text-muted" href="#">Connections</a>
+              <a class="nav-link text-muted" href="#">Contact Us</a>
+              <a class="nav-link text-muted" href="#">Editorial Guidelines</a>
+              <a class="nav-link text-muted" href="#">Advertise</a>
+              <a class="nav-link text-muted" href="#">Copyright</a>
+              <a class="nav-link text-muted" href="#">Terms & Conditions</a>
+              <a class="nav-link text-muted" href="#">Privacy Policy</a>
+              <a class="nav-link text-muted" href="#">Cookie Policy</a>
+              <a class="nav-link text-muted" href="#">Terms of Sale</a>
+              <a class="nav-link text-muted" href="#">Archive</a>
+              <a class="nav-link text-muted" href="#">Anouncements</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

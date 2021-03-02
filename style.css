@@ -3,6 +3,7 @@
                 ****** RESET ******
     ==============================================
 */
+
 body {
   margin: 0;
 }
@@ -22,6 +23,10 @@ body {
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 ul {
   list-style: none;
 }
@@ -35,8 +40,134 @@ a:hover {
   color: #333;
 }
 
+.h-fill {
+  width: 100%;
+}
+
 /*
     ==============================================
                 ****** GLOBAL ******
     ==============================================
 */
+
+/* TOP NAVBAR */
+
+.page-header {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.top_nav {
+  background-color: #f72217;
+  position: relative;
+}
+
+.top_nav::after {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 1.5rem;
+  right: 0;
+  top: 100%;
+  display: none;
+  background-color: #f72217;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 20px 100%);
+}
+
+.navbar .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav_logo img {
+  filter: invert(100%);
+}
+
+.nav_login,
+.datetime {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.nav_login {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.top_nav_categories {
+  display: flex;
+  flex-direction: column;
+}
+
+.top_nav_categories a {
+  font-weight: bolder;
+}
+
+.top_nav_trending a {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.toggler-wrap > * {
+  margin-left: 15px;
+}
+
+/* MAIN CONTENT */
+
+main {
+  height: 65vh;
+}
+
+/* FOOTER NAVBAR */
+
+.bottom_nav_logo {
+  filter:
+    invert(17%) sepia(84%) saturate(5354%) hue-rotate(13deg)
+    brightness(103%) contrast(105%);
+}
+
+.bottom_nav {
+  border-top: grey solid 0.01rem;
+  flex-wrap: wrap;
+}
+
+.bottom_nav_first {
+  display: flex;
+  font-size: 1.1rem;
+  flex-wrap: wrap;
+}
+
+.bottom_nav_second {
+  flex-wrap: wrap;
+}
+
+.bottom_nav_first a:nth-child(1) {
+  font-weight: bold;
+}
+
+.left_side {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social a i {
+  font-size: 2rem;
+  padding: 0 0.5rem;
+  color: rgba(53, 52, 52, 0.8);
+}
+
+@media (min-width: 768px) {
+  .nav_login,
+  .datetime {
+    color: white;
+    display: block;
+  }
+
+  .navbar-toggler {
+    display: none;
+  }
+
+  .top_nav::after {
+    display: block;
+  }
+}
