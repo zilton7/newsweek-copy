@@ -1246,11 +1246,11 @@
             <div class="d-flex justify-content-center my-4">
               <form action="#" class="d-flex flex-column w-100 bg-light border border-muted p-4">
                 <label for="email-2" class="d-flex align-items-center h2 text-uppercase font-weight-bold">
-                  <span class="h2 bg-danger text-white p-2 m-4">N</span>
-                  Start your day with our top 5 articles
+                  <img class="mr-3 bg-red" alt="logo-n" src="assets/logo-n.svg" width="30" height="30">
+                  <span>Start your day with our top 5 articles</span>
                 </label>
-                <input class="rounded-0 h4 p-2" id="email-2" type="email" placeholder="Email adress">
-                <button class="font-weight-bold text-uppercase h4 my-1 py-2 bg-danger text-white" type="submit">Free
+                <input class="rounded-0 h4 p-3 shadow-none border-0 plain" id="email-2" type="email" placeholder="Email adress">
+                <button class="btn font-weight-bold text-uppercase h4 my-1 py-2 bg-red b-0 text-white" type="submit">Free
                   Sign Up
                   ></button>
               </form>
@@ -1320,8 +1320,8 @@
       <div class="row">
         <div class="col-12">
           <h2
-            class="text-upper text-center py-3 text-upper font-weight-bold position-relative border-bottom border-muted">
-            <span class="p-2 bg-red text-white h2">N</span>
+            class="text-upper py-3 text-upper font-weight-bold position-relative border-bottom border-muted d-flex justify-content-center align-items-center">
+            <img class="mr-3 bg-red" alt="logo-n" src="assets/logo-n.svg" width="30" height="30">
             <span>In The Magazine</span>
           </h2>
           <div class="row">
@@ -1451,8 +1451,9 @@
     <section class="editors-picks container-fluid mx-0 mb-5">
       <div class="row">
         <div class="col-12">
-          <h2 class="text-upper text-center py-3 text-upper position-relative border-bottom border-muted">
-            <span class="p-2 bg-red text-white h2">N</span>
+          <h2
+            class="text-upper py-3 font-weight-bold position-relative border-bottom border-muted d-flex justify-content-center align-items-center">
+            <img class="mr-3 bg-red" alt="logo-n" src="assets/logo-n.svg" width="30" height="30">
             <span>Editor's Pick</span>
           </h2>
           <div class="row">
@@ -2180,9 +2181,9 @@
       </section>
     </section>
     <!-- SUBSCRIBE & NEWSLETTER -->
-    <section class="d-flex flex-column flex-md-row border-bottom border-dark pb-5 mb-5">
+    <section class="d-flex flex-column flex-md-row border-bottom border-muted p-5 border-top mb-5 mt-5">
       <section class="section-subscribe">
-        <h2 class="text-danger font-weight-bold text-uppercase p-5 mt-5 border-top border-muted">Subscribe
+        <h2 class="text-red font-weight-bold text-uppercase">Subscribe
         </h2>
         <div class="bg-light p-5 d-flex flex-row justify-content-between">
           <img class="px-5" width="300" src="./assets/mags.png" alt="Mag covers">
@@ -2193,31 +2194,33 @@
               Read!</p>
             <p class="h3 p-2">All Access + Weekly Delivery.<br>
               Choose A Membership That's Perfect for You!</p>
-            <button type="submit" class="h3 btn-danger font-weight-bold text-uppercase p-3 m-3">Subscribe
+            <button type="submit" class="btn bg-red font-weight-bold font-size-lg text-white text-uppercase p-3 m-3">Subscribe
               ></button>
           </div>
         </div>
       </section>
-      <section class="section-newsletter">
-        <h2 class="text-danger font-weight-bold text-uppercase p-5 mt-5 border-top border-muted">
+      <section class="section-newsletter d-flex flex-column">
+        <h2 class="text-red font-weight-bold text-uppercase">
           Newsletter
         </h2>
-        <div class="border">
-          <div class="newsletter-wrapper d-flex flex-row">
-            <div class="newsletter-img col-6">
+        <div class="border mr-5 flex-fill">
+          <div class="newsletter-wrapper d-flex flex-row h-100">
+            <div class="newsletter-img col-6 h-100">
             </div>
 
             <form action="#" class="p-4">
-              <div class="d-flex flex-column container-fluid col-6 align-items-center">
-                <h2 class="text-uppercase font-weight-bold">The Starting 5</h2>
-                <p class="h4 text-center">See why nearly a quarter of a million subscribers begin their day
+              <div class="d-flex flex-column justify-content-between container-fluid h-100 col-6">
+                <span class="h3 text-uppercase font-weight-bold">The Starting 5</span>
+                <p class="h4 font-weight-normal">See why nearly a quarter of a million subscribers begin their day
                   with the
                   Starting 5.
                 </p>
                 <label for="email-bottom"></label>
                 <div class="d-flex flex-column align-items-center">
-                  <input type="email" id="email-bottom" placeholder="Email address">
-                  <input type="submit" class="btn-danger p-3 font-weight-bold text-uppercase">
+                  <input class="rounded-0 h5 p-3 text-font-light shadow-none border border-muted w-100 plain" id="email-bottom" type="email" placeholder="Email address">
+                  <button class="btn font-weight-bold text-uppercase font-size-lg my-1 py-3 bg-red b-0 text-white d-block w-100" type="submit">Free
+                    Sign Up
+                    ></button>
                 </div>
               </div>
             </form>
