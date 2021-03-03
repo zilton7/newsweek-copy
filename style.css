@@ -44,6 +44,18 @@ a:hover {
   width: 100%;
 }
 
+.text-red {
+  color: #f72210;
+}
+
+.bg-red {
+  background-color: #f72210;
+}
+
+.icon-sm {
+  width: 20px;
+}
+
 /*
     ==============================================
                 ****** GLOBAL ******
@@ -201,6 +213,14 @@ main {
   position: absolute;
   clip-path: circle(1px);
   color: transparent;
+}
+
+.absolute-bottom {
+  bottom: 0;
+}
+
+.bg-dim {
+  background-color: #dddd;
 }
 
 @media (min-width: 768px) {
