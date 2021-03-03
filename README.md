@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/myapp-blueviolet)
 
 # Newsweek Copy
-
-> For this project we are using Bootstrap 4.3.1 to make a clone of Newsweek.com website. This clone website is fully responsive.
+Cloning of the archived version of Newsweek Magazine of 2021/01/20 
+> We are using Bootstrap 4.3.1 to make a fully responsive clone of an archived version of [Newsweek website](newsweek.com) website.
 
 ![screenshot](./app_screenshot.png)
 
@@ -18,10 +18,9 @@ There is not many feaures, appart from Microverse's linters.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 To get a local copy up and running follow these simple example steps.
+
+If you are developing with VS code, we will recommend using Live Server extension, otherwise you can use any server of your choice to server the html locally.
 
 ## Authors
 
@@ -49,9 +48,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microserve Community
+- Twitter Bootstrap and all other open source projects used.
 
 ## 📝 License
 

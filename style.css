@@ -115,7 +115,39 @@ a:hover {
 /* MAIN CONTENT */
 
 main {
-  height: 65vh;
+  height: 100%;
+}
+
+.category {
+  bottom: 0;
+  color: red;
+  font-weight: bold;
+  font-size: 1.3rem;
+  background: rgb(233, 233, 233);
+}
+
+.featured-stories article {
+  padding: 1rem;
+}
+
+.the-debate img {
+  width: 7rem;
+}
+
+.the-debate h4 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.vs-circle {
+  font-size: 1.5rem;
+  top: -1.5rem;
+  left: 49%;
+  padding: 0.3rem;
+}
+
+.culture-and-travel-category {
+  bottom: 0;
 }
 
 /* FOOTER NAVBAR */
@@ -154,6 +186,21 @@ main {
   font-size: 2rem;
   padding: 0 0.5rem;
   color: rgba(53, 52, 52, 0.8);
+}
+
+.md-lg .sponsored-insights-2 {
+  width: 330px;
+  margin: auto;
+}
+
+.thumbnail {
+  max-width: 80px;
+}
+
+.clip {
+  position: absolute;
+  clip-path: circle(1px);
+  color: transparent;
 }
 
 @media (min-width: 768px) {
