@@ -162,6 +162,19 @@ main {
   bottom: 0;
 }
 
+/* SUBSCRIBE & NEWSLETTER */
+
+.newsletter-img {
+  background: url('./assets/starting5-homepage.png');
+  background-position: center;
+  background-size: cover;
+  min-height: auto;
+}
+
+.newsletter-wrapper {
+  min-height: 28.8rem;
+}
+
 /* FOOTER NAVBAR */
 
 .bottom_nav_logo {
