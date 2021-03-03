@@ -187,13 +187,20 @@ main {
   color: rgba(53, 52, 52, 0.8);
 }
 
-.sponsored-insights-2 {
+.md-lg .sponsored-insights-2 {
   width: 330px;
   margin: auto;
 }
 
 .thumbnail {
   max-width: 80px;
+}
+
+.clip {
+  position: absolute;
+  --webkit-clip-path: circle(1px);
+  clip-path: circle(1px);
+  color: transparent;
 }
 
 @media (min-width: 768px) {
