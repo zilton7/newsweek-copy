@@ -199,7 +199,6 @@ main {
 
 .clip {
   position: absolute;
-  --webkit-clip-path: circle(1px);
   clip-path: circle(1px);
   color: transparent;
 }
