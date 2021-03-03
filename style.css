@@ -223,6 +223,10 @@ main {
   background-color: #dddd;
 }
 
+.text-black {
+  color: #000;
+}
+
 @media (min-width: 768px) {
   .nav_login,
   .datetime {
@@ -236,5 +240,11 @@ main {
 
   .top_nav::after {
     display: block;
+  }
+
+  .sponsored-insights-2 article {
+    max-width: 330px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
