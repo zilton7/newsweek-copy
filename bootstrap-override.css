@@ -11,6 +11,10 @@
   width: 100%;
 }
 
+.btn.font-size-lg {
+  font-size: 1.5rem;
+}
+
 .navbar-brand.nav_logo img {
   transform: scale(0.8);
 }

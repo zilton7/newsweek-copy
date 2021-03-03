@@ -38,6 +38,7 @@ a {
 
 a:hover {
   color: #333;
+  text-decoration-color: #f72210;
 }
 
 .h-fill {
@@ -240,6 +241,14 @@ main {
   color: #000;
 }
 
+.font-size-lg {
+  font-size: 1.5rem;
+}
+
+input.plain:focus {
+  outline: none;
+}
+
 @media (min-width: 768px) {
   .nav_login,
   .datetime {
@@ -255,7 +264,7 @@ main {
     display: block;
   }
 
-  .sponsored-insights-2 article {
+  .sponsored-insights-2 > * {
     max-width: 330px;
     margin-right: auto;
     margin-left: auto;
