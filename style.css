@@ -40,6 +40,12 @@ a:hover {
   text-decoration-color: #f72210;
 }
 
+.subscribe-btn:hover {
+  transition: transform 0.3s linear;
+  z-index: 1500;
+  transform: scale(1.1);
+}
+
 .h-fill {
   width: 100%;
 }
