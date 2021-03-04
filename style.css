@@ -142,12 +142,15 @@ a:hover {
 }
 
 @keyframes sk-plane {
+    
   0% {
     transform: perspective(120px) rotateX(0deg) rotateY(0deg);
   }
+    
   50% {
     transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
   }
+    
   100% {
     transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
   }
@@ -229,7 +232,8 @@ main {
 /* FOOTER NAVBAR */
 
 .bottom_nav_logo {
-  filter: invert(17%) sepia(84%) saturate(5354%) hue-rotate(13deg)
+  filter:
+    invert(17%) sepia(84%) saturate(5354%) hue-rotate(13deg)
     brightness(103%) contrast(105%);
 }
 
