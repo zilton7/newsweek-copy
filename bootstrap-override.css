@@ -1,3 +1,27 @@
+.hover-black:hover {
+  color: #000;
+}
+
+.hover-red:hover {
+  color: #f72210;
+}
+
+.hover-dark:hover {
+  color: #343a40;
+}
+
+.hover-muted:hover {
+  color: #6c757d;
+}
+
+.hover-white:hover {
+  color: #fff;
+}
+
+.hover-underline-none:hover {
+  text-decoration-color: transparent;
+}
+
 .container-fluid {
   padding: 0;
   max-width: 1300px;
@@ -11,8 +35,15 @@
   width: 100%;
 }
 
+.btn.font-size-lg {
+  font-size: 1.5rem;
+}
+
 .navbar-brand.nav_logo img {
   transform: scale(0.8);
+  position: absolute;
+  left: 0;
+  top: 20%;
 }
 
 .navbar-light .navbar-nav.nav-row-1 .nav-link {
@@ -25,10 +56,4 @@
 
 .navbar-light .navbar-nav .nav-link:hover {
   color: #f42;
-}
-
-@media (min-width: 768px) {
-  .navbar-brand.nav_logo img {
-    transform: scale(2);
-  }
 }
