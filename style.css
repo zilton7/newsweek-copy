@@ -68,6 +68,10 @@ a:hover {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+.page-header a {
+  transition: color 0.3s ease-in-out;
+}
+
 .top_nav {
   background-color: #f72217;
   position: relative;
