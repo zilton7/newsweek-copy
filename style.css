@@ -92,6 +92,24 @@ a:hover {
 
 .nav_logo img {
   filter: invert(100%);
+  transition: filter 1000ms, scale 500ms ease-in-out;
+}
+
+.nav_logo img:hover {
+  filter: invert(80%);
+  scale: 1.05;
+  animation-name: change_color_loop;
+  animation-duration: 200ms;
+  animation-iteration-count: infinite;
+}
+
+@keyframes change_color_loop {
+  0% {
+    filter: invert(0%);
+  }
+  100% {
+    filter: invert(100%);
+  }
 }
 
 .nav_login,
