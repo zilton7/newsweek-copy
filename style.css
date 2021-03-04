@@ -107,8 +107,11 @@ a:hover {
   0% {
     filter: invert(0%);
   }
-  100% {
+  50% {
     filter: invert(100%);
+  }
+  100% {
+    filter: invert(0%);
   }
 }
 
@@ -130,6 +133,13 @@ a:hover {
 
 .top_nav_categories a {
   font-weight: bolder;
+  transition: 300ms ease-in;
+}
+
+.top_nav_categories a:hover {
+  color: white !important;
+  background: #000;
+  scale: 1.2;
 }
 
 .top_nav_trending a {
