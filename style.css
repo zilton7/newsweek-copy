@@ -95,6 +95,10 @@ a:hover {
   transition: filter 1000ms, scale 500ms ease-in-out;
 }
 
+.the-debate img {
+  width: 7rem;
+}
+
 .nav_logo img:hover {
   filter: invert(80%);
   scale: 1.05;
@@ -102,7 +106,6 @@ a:hover {
   animation-duration: 200ms;
   animation-iteration-count: infinite;
 }
-
 
 @keyframes change_color_loop {
   0% {
@@ -122,30 +125,32 @@ a:hover {
   font-size: 1.2rem;
 }
 
-.nav_login:hover, .datetime:hover{
+.nav_login {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav_login:hover,
+.datetime:hover {
   cursor: pointer;
   scale: 1.4;
   font-weight: bold;
   width: var(--sk-size);
   height: var(--sk-size);
   background-color: var(--sk-color);
-  animation: sk-plane 1.2s infinite ease-in-out; 
+  animation: sk-plane 1.2s infinite ease-in-out;
 }
-
 
 @keyframes sk-plane {
   0% {
-    transform: perspective(120px) rotateX(0deg) rotateY(0deg); 
-  } 50% {
-    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); 
-  } 100% {
-    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); 
-  } 
-}
-
-.nav_login {
-  text-transform: uppercase;
-  font-weight: bold;
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
 }
 
 .top_nav_categories {
@@ -158,16 +163,16 @@ a:hover {
   transition: 300ms ease-in;
 }
 
-.top_nav_categories a:hover {
-  color: white !important;
-  background: #000;
-  scale: 1.2;
-}
-
 .top_nav_trending a {
   font-size: 1.3rem;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.top_nav_categories a:hover {
+  color: white !important;
+  background: #000;
+  scale: 1.2;
 }
 
 .toggler-wrap > * {
@@ -192,10 +197,6 @@ main {
   padding: 1rem;
 }
 
-.the-debate img {
-  width: 7rem;
-}
-
 .the-debate h4 {
   font-size: 1.8rem;
   font-weight: bold;
@@ -215,7 +216,7 @@ main {
 /* SUBSCRIBE & NEWSLETTER */
 
 .newsletter-img {
-  background: url('./assets/starting5-homepage.png');
+  background: url("./assets/starting5-homepage.png");
   background-position: center;
   background-size: cover;
   min-height: auto;
@@ -228,8 +229,7 @@ main {
 /* FOOTER NAVBAR */
 
 .bottom_nav_logo {
-  filter:
-    invert(17%) sepia(84%) saturate(5354%) hue-rotate(13deg)
+  filter: invert(17%) sepia(84%) saturate(5354%) hue-rotate(13deg)
     brightness(103%) contrast(105%);
 }
 
@@ -319,7 +319,7 @@ main {
 }
 
 .search-label::after {
-  content: '';
+  content: "";
   position: absolute;
   right: -10px;
   top: 5px;
