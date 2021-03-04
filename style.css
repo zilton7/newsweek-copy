@@ -111,9 +111,11 @@ a:hover {
   0% {
     filter: invert(0%);
   }
+
   50% {
     filter: invert(100%);
   }
+
   100% {
     filter: invert(0%);
   }
@@ -142,7 +144,6 @@ a:hover {
 }
 
 @keyframes sk-plane {
-    
   0% {
     transform: perspective(120px) rotateX(0deg) rotateY(0deg);
   }
