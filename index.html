@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="bootstrap-override.css">
+  <link rel="stylesheet" href="hamburger.css">
   <link rel="stylesheet" href="style.css">
   <title>Newsweek Copy</title>
 </head>
@@ -25,10 +26,9 @@
         <div class="d-flex align-items-center toggler-wrap">
           <a class="d-none d-lg-block nav_login text-white hover-white font-weight-bold font-size-lg h2" href="#">Login</a>
           <a class="d-lg-none d-block nav_login text-white hover-white" href="#"><i class="fas fa-user"></i></a>
-          <button class="btn btn-warning btn-round subscribe-btn rounded-pill font-size-lg text-black font-weight-bold px-4 py-1">Subscribe ></button>
-          <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button class="btn btn-warning btn-round subscribe-btn rounded-pill font-size-lg text-black font-weight-bold px-4 py-1 position-relative">Subscribe ></button>
+          <button id="drawer-btn" class="hamburger btn d-lg-none position-relative shadow-none" type="button">
+            <span></span>
           </button>
         </div>
       </div>
@@ -2787,6 +2787,10 @@
       </nav>
     </div>
   </footer>
+  <script>
+    const btn = document.querySelector('#drawer-btn');
+    btn.addEventListener('click', () => btn.classList.toggle('open'));
+  </script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
