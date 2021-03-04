@@ -40,9 +40,13 @@ a:hover {
   text-decoration-color: #f72210;
 }
 
+img:not(.hover-enlarge-none):hover {
+  transition: transform 0.3s linear;
+  transform: scale(1.02);
+}
+
 .subscribe-btn:hover {
   transition: transform 0.3s linear;
-  z-index: 1500;
   transform: scale(1.1);
 }
 
