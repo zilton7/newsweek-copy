@@ -252,6 +252,34 @@ main {
   height: 100%;
 }
 
+.search {
+  background-color: transparent;
+  width: 80px;
+  font-size: 1.5rem;
+}
+
+.search:hover {
+  background-color: transparent;
+}
+
+.search-label {
+  position: relative;
+  width: 80px;
+  margin-right: 80px;
+}
+
+.search-label::after {
+  content: '';
+  position: absolute;
+  right: -10px;
+  top: 5px;
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(assets/search.png);
+}
+
 input.plain:focus {
   outline: none;
 }
