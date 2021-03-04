@@ -40,11 +40,6 @@ a:hover {
   text-decoration-color: #f72210;
 }
 
-img:not(.hover-enlarge-none):hover {
-  transition: transform 0.3s linear;
-  transform: scale(1.02);
-}
-
 .subscribe-btn:hover {
   transition: transform 0.3s linear;
   transform: scale(1.1);
@@ -296,6 +291,11 @@ main {
 
 input.plain:focus {
   outline: none;
+}
+
+img:not(.hover-enlarge-none):hover {
+  transition: transform 0.3s linear;
+  transform: scale(1.02);
 }
 
 @media (min-width: 768px) {

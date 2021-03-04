@@ -6,6 +6,7 @@
   height: 20px;
   background-color: transparent;
 }
+
 .hamburger > span {
   display: block;
   position: absolute;
@@ -16,6 +17,7 @@
   top: 8px;
   transition: all 0.5s ease-in-out;
 }
+
 .hamburger::before {
   content: "";
   position: absolute;
@@ -27,6 +29,7 @@
   transform-origin: center;
   transition: top 0.3s 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
+
 .hamburger::after {
   content: "";
   position: absolute;
@@ -38,15 +41,18 @@
   transform-origin: center;
   transition: bottom 0.3s 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
+
 .hamburger.open > span {
   opacity: 0;
   background-color: transparent;
 }
+
 .hamburger.open::before {
   top: 8px;
   transform: rotate(-45deg);
   transition: top 0.3s ease-in-out, transform 0.3s 0.3s ease-in-out;
 }
+
 .hamburger.open::after {
   bottom: 8px;
   transform: rotate(45deg);
