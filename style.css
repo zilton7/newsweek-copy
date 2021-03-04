@@ -263,17 +263,22 @@ input.plain:focus {
     display: block;
   }
 
-  .navbar-toggler {
-    display: none;
-  }
-
-  .top_nav::after {
-    display: block;
-  }
-
   .sponsored-insights-2 > * {
     max-width: 330px;
     margin-right: auto;
     margin-left: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .top_nav::after {
+    display: block;
+  }
+
+  .navbar-brand.nav_logo img {
+    transform: scale(2);
+    position: relative;
+    left: 0;
+    top: 0;
   }
 }
