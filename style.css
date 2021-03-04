@@ -33,11 +33,10 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
+  color: inherit;
 }
 
 a:hover {
-  color: #333;
   text-decoration-color: #f72210;
 }
 
@@ -243,6 +242,14 @@ main {
 
 .font-size-lg {
   font-size: 1.5rem;
+}
+
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 input.plain:focus {

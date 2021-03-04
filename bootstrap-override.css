@@ -1,3 +1,27 @@
+.hover-black:hover {
+  color: #000;
+}
+
+.hover-red:hover {
+  color: #f72210;
+}
+
+.hover-dark:hover {
+  color: #343a40;
+}
+
+.hover-muted:hover {
+  color: #6c757d;
+}
+
+.hover-white:hover {
+  color: #fff;
+}
+
+.hover-underline-none:hover {
+  text-decoration-color: transparent;
+}
+
 .container-fluid {
   padding: 0;
   max-width: 1300px;
